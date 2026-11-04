@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ApplyScoutTrackerRow",
+  "type": "object",
+  "required": ["dateApplied", "company", "role", "location", "source", "url", "status", "lastUpdated"],
+  "properties": {
+    "dateApplied": { "type": "string", "format": "date" },
+    "company": { "type": "string" },
+    "role": { "type": "string" },
+    "location": { "type": "string" },
+    "source": { "type": "string" },
+    "url": { "type": "string", "format": "uri" },
+    "status": {
+      "type": "string",
+      "enum": ["Applied", "Interview", "Rejected", "Needs human", "Skipped", "Queued", "Not Proceeding"]
+    },
+    "coverLetter": { "type": "string", "enum": ["yes", "no", ""] },
+    "notes": { "type": "string" },
+    "lastUpdated": { "type": "string", "format": "date" }
+  }
+}
