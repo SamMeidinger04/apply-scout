@@ -89,7 +89,7 @@ This repository **does not** include resumes, transcripts, Gmail contents, passw
 
 ## Author
 
-[Samuel Meidinger](https://github.com/SamMeidinger04) · samuelmeidinger7@gmail.com · Calgary, AB
+Calgary, AB
 
 ## License
 
